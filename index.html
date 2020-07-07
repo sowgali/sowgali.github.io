@@ -8,8 +8,8 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/styles.css"></link>
-    <link rel="stylesheet" type="text/css" href="css/styles-scss.css"></link>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/styles-scss.css">
 </head>
 
 <body>
@@ -18,7 +18,7 @@
             <button class="navbar-toggler mr-0" type="button" data-toggle = "collapse" data-target = "#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class = "navbar-brand" orientation="left" href="index.html"><img src="img/logo.png" height="50" width="60"></a>
+            <a class = "navbar-brand" href="index.html"><img src="img/logo.png" id ="logo" alt="SGali logo"></a>
             <div class="navbar navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mx-auto text-center">
                     <li class="nav-item"><a class="nav-link" href="#aboutme">About</a></li>
@@ -49,7 +49,7 @@
 
     <div class="container" id="education">
         <div class="page-header">
-            <h1 id="timeline">Education</h1>
+            <h1>Education</h1>
         </div>
         <ul class="timeline">
             <li>
@@ -122,7 +122,7 @@
                             <p class="card-text">Extract embeddings into a common vector space, easing image-captioning, searching images based on description.</p>
                             <ul class="list-group list-group-horizontal list-unstyled">
                                 <li><span class="fa" aria-hidden="true"><img src="icons/python.svg" class="img-fluid" alt="python icon"></span></li>
-                                <li><span class="fa" aria-hidden="true"><img src="icons/tensorflow.svg" class="img-fluid" alt="tensorflow icon" width="48px" height="48px"></span></li>
+                                <li><span class="fa" aria-hidden="true"><img src="icons/tensorflow.svg" class="img-fluid icon-resize" alt="tensorflow icon"></span></li>
 
                             </ul>
                             <a role="button" href="#" class="btn btn-secondary float-right mt-2"><span class="fa fa-code"></span>Code</a>
@@ -137,7 +137,7 @@
                             <p class="card-text">Building a compiler for COOL language using ANTLR, as part of Compilers course at IITH. Competed lexical analyzer.</p>
                             <ul class="list-group list-group-horizontal list-unstyled">
                                 <li><span class="fa" aria-hidden="true"><img src="icons/java.svg" class="img-fluid" alt="java icon"></span></li>
-                                <li><span class="fa" aria-hidden="true"><img src="icons/antlr.svg" class="img-fluid" alt="antlr icon" width="48px" height="48px"></span></li>
+                                <li><span class="fa" aria-hidden="true"><img src="icons/antlr.svg" class="img-fluid icon-resize" alt="antlr icon"></span></li>
                             </ul>
                             <a role="button" href="#" class="btn btn-secondary float-right mt-2"><span class="fa fa-code"></span>Code</a>
                         </div>
@@ -149,7 +149,7 @@
 
     <div class="container" id="myexperience">
         <div class="page-header">
-            <h1 id="timeline">Work Experience</h1>
+            <h1>Work Experience</h1>
         </div>
         <ul class="timeline">
             <li>
@@ -208,7 +208,7 @@
                 <span class="fa" aria-hidden="true"><img src="icons/cpp.svg" class="img-fluid" alt="cpp language icon">C++ &nbsp;</span>
                 <span class="fa" aria-hidden="true"><img src="icons/matlab.svg" class="img-fluid" alt="matlab icon">MATLAB &nbsp;</span>
                 <span class="fa" aria-hidden="true"><img src="icons/java.svg" class="img-fluid" alt="java icon">Java &nbsp;</span>
-                <span class="fa" aria-hidden="true"><img src="icons/haskell.svg" class="img-fluid" alt="haskell icon" width="48px" height="48px"> Haskell &nbsp;</span>
+                <span class="fa" aria-hidden="true"><img src="icons/haskell.svg" class="img-fluid icon-resize" alt="haskell icon"> Haskell &nbsp;</span>
                 <span class="fa" aria-hidden="true"><img src="icons/prolog.svg" class="img-fluid" alt="swi-prolog icon">Prolog &nbsp;</span>
             </div>
         </div>
@@ -219,8 +219,8 @@
                 <h2> Frameworks: </h2>
             </div>
             <div class="col-md-9">
-                <span class="fa" aria-hidden="true"><img src="icons/tensorflow.svg" class="img-fluid" alt="tensorflow icon" width="48px" height="48px">TensorFlow &nbsp;</span>
-                <span class="fa" aria-hidden="true"><img src="icons/pytorch.svg" class="img-fluid" alt="pytorch icon" width="48px" height="48px">PyTorch &nbsp;</span>
+                <span class="fa" aria-hidden="true"><img src="icons/tensorflow.svg" class="img-fluid icon-resize" alt="tensorflow icon">TensorFlow &nbsp;</span>
+                <span class="fa" aria-hidden="true"><img src="icons/pytorch.svg" class="img-fluid  icon-resize" alt="pytorch icon">PyTorch &nbsp;</span>
                 <span class="fa" aria-hidden="true"><img src="icons/bootstrap.svg" class="img-fluid" alt="bootstrap icon">Bootstrap &nbsp;</span>
                 <span class="fa" aria-hidden="true"><img src="icons/jquery.svg" class="img-fluid" alt="jQuery icon">jQuery &nbsp;</span>
             </div>
@@ -232,11 +232,11 @@
                 <h2> Devtools: </h2>
             </div>
             <div class="col-md-9">
-                <span class="fa" aria-hidden="true"><img src="icons/linux.svg" class="img-fluid" alt="tux icon" width="48px" height="48px">Linux &nbsp;</span>
+                <span class="fa" aria-hidden="true"><img src="icons/linux.svg" class="img-fluid  icon-resize" alt="tux icon">Linux &nbsp;</span>
                 <span class="fa" aria-hidden="true"><img src="icons/git.svg" class="img-fluid" alt="git icon">Git &nbsp;</span>
                 <span class="fa" aria-hidden="true"><img src="icons/html-5.svg" class="img-fluid" alt="tensorflow icon">HTML &nbsp;</span>
                 <span class="fa" aria-hidden="true"><img src="icons/css3.svg" class="img-fluid" alt="css icon">CSS &nbsp;</span>
-                <span class="fa" aria-hidden="true"><img src="icons/latex.svg" class="img-fluid" alt="latex icon" width="48px" height="48px">LaTeX &nbsp;</span>
+                <span class="fa" aria-hidden="true"><img src="icons/latex.svg" class="img-fluid  icon-resize" alt="latex icon">LaTeX &nbsp;</span>
             </div>
         </div>
     </div>

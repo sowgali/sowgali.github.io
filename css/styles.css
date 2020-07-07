@@ -2,6 +2,16 @@
     border-radius: 12%;
 }
 
+#logo{
+  height: 50px;
+  width: 60px;
+}
+
+.icon-resize{
+  height: 48px;
+  width: 48px;
+}
+
 body{
     padding: 50px 0px 0px 0px;
     background-color: #171C28;

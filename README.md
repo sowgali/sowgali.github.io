@@ -1,2 +1,1 @@
-# sowgali.github.io
-My Portfolio Website
+A portfolio website designed to showcase my skills as developer.
